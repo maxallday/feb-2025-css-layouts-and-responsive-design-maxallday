@@ -1,0 +1,157 @@
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;  
+    background-color: rgb(73, 12, 126);
+
+  }
+  header {
+    
+    margin: 0; /* Removes default margin */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*image*/
+  #logo {
+    
+    width: 50px; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove centering logic */
+    display: inline-block; /* Default inline-block for alignment */
+  }
+  #slogan {
+    padding-top: 0px; /* Adjust the top padding */
+    margin: 0; /* Removes default margin */
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  p {
+    font-family: "Kant", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(214, 221, 226);
+  }
+  h1 {
+    
+    font-family: "Bungee Spice", sans-serif;
+    font-size:60px;  
+    text-align: center;
+  }
+
+  .bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#logo{
+    width: 20%;
+    height: auto;
+}
+
+/* navbar styles */
+.navbar {
+    text-decoration: none; /* Remove underline from links */
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+     }
+      .navbar li {
+        list-style: none; /* Removes default list styling */
+        margin: 0 15px; /* Adds space between items */
+        display: inline-block; /* Aligns items horizontally */
+        font-family: "Bungee Spice", sans-serif;
+        color: turquoise;  
+        text-decoration: none; /* Remove underline from links */
+}
+/*display on screen*/
+@media (max-width: 600px) {
+    .navbar li {
+        display: block; /* Stacks items vertically on small screens */
+        margin: 10px 0; /* Adds space between items */
+    }
+}
+
+/*image adjustment*
+/* Default styling for large screens */
+img {
+  width: 100%; /* Default size for larger screens */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+/* Styling for medium screens */
+@media (max-width: 768px) {
+  img {
+      width: 100%; /* Adjust size for medium screens */
+  }
+}
+
+/* Styling for small screens */
+@media (max-width: 480px) {
+  img {
+      width: 90%; /* Adjust size for small screens */
+  }
+}
+
+
+
+
+/* grid */
+.grit-container {
+  display: grid; /* Enable grid layout */
+    grid-template-areas: 'header header header' /* Define grid areas */
+                         'menu main right'
+                         'footer footer footer';
+    grid-gap:10px; /* Space between grid items */
+    padding: 10px; /* Padding inside the container */               
+    
+}
+.item1, .item2, .item3, .item4, .item5 {
+  color: rgb(180, 49, 49);
+  padding: 20px; /* Padding inside each grid item */
+  border: 2px; /* Removes the solid red border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  border-radius: 10px; /* Optional: Rounded corners for smoother appearance */
+  /* Red border for visibility */
+  border-radius: 10px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Clean font */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+/*footer social*/
+.footer-content .socials {
+  list-style-type: none; /* Removes bullet points */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    margin-top: 10px; /* Space above the icons */
+  }
+  
+  .footer-content .socials a {
+    
+    margin: 0 10px; /* Space between icons */
+    color: rgb(78, 231, 72); /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+.footer p{
+    background-color: rgb(73, 12, 126);
+    color: rgb(2, 20, 4);
+    text-align: center;
+    padding: 10px;
+    bottom: 0; /* Aligns it to the bottom of the page */
+    width: 100%; /* Full width */
+  }

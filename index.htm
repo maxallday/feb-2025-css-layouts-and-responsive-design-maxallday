@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple responsive web page example.">
+    <meta name="keywords" content="HTML, CSS, flex, grid , responsive design">
+    <meta name="author" content="Maxallday">
+    <!--google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>My Responsive Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- cdn link to favicon icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">   <!-- favicon for all devices -->
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png"> <!-- Android 7.1+ -->    
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar" id="go-up">
+                <ul class="nav-links">     
+                    <li><a href="#navbar">Home</a></li>
+                    <li><a href="#navbar">About</a></li>
+                    <li><a href="#navbar">News</a></li>
+                    <li><a href="#social">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>
+                <i class="fas fa-star" style="font-size: 24px; color: rgb(165, 226, 22);"></i>
+                Glove Game
+            </h1>
+            
+        </div>
+        
+        
+    </header>
+    
+    <p id="slogan">All the punches, all the time.</p>
+    <div class="container">
+        <h4>Boxing News, Features, and Analysis </h4>
+        <h2>CANELO VS. SCULL: LEGACY VS. DREAM . </h2>
+        <p> On May 3, the ANB Arena hosts a monumental showdown: Saúl “Canelo” Álvarez faces undefeated Cuban William Scull for the WBA Super Championship and all the major titles. 
+            It's not just about belts—it's greatness vs ambition.</p>
+        <p> Canelo, a four-division champion, is on a quest to solidify his legacy. Scull, the rising star, aims to dethrone the king and claim his place in boxing history.</p>    
+
+        <img src="img/poster.jpg" alt="boxing poster" id="poster">
+    </div>
+    <div class="grid-container" id="navbar">
+        <div class="item1">
+            <h3>Latest News</h3>
+            <p><strong>Dalton Smith's Dominance:</strong> Dalton Smith (18-0, 13 KOs) delivered an impressive victory over Mathieu Germain, signaling his readiness for a potential title shot.</p>
+            <p><strong>Conor Benn's Arrival:</strong> Conor Benn is back in London from his Majorca training camp, gearing up for the showdown against Chris Eubank Jr.</p>
+        </div>
+        <div class="item2">
+            <h3>Upcoming Fights</h3>
+            <p>Mark your calendars for July 12th as Shakur Stevenson faces off against William Zepeda, headlining a thrilling card of matchups.</p>
+            <p>Exciting bouts continue to unfold, ensuring a season packed with action for boxing fans everywhere!</p>
+        </div>
+        <div class="item3">
+            <h3>About</h3>
+            <p>Boxing: where legends are born and champions rise. Dive into the rich history of the sport and celebrate its most iconic moments.</p>
+        </div>
+        <div class="item4">
+            <h3>Newsletter</h3>
+            <p>Stay in the loop! Subscribe for exclusive boxing updates, expert training tips, and behind-the-scenes insights.</p>
+        </div>
+    </div>
+    <a  href="#go-up">top</a>
+    <footer class="footer">
+        <div class="footer-content">
+            <ul class="socials" id="social">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; Maxallday 2025 PLP,Responsive Web Page. All rights reserved.</p>
+    </footer>
